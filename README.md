@@ -4,9 +4,14 @@
 
 Enhanced WebUI ergänzt die vertraute OpenCCU-Weboberfläche um Funktionen, die das Bearbeiten und Dokumentieren von Programmen erleichtern: Programmlogik per Drag and Drop sortieren, Skripte mit Autovervollständigung bearbeiten und einzelne Programmteile mit Infotexten versehen. Dazu kommen verbesserte Listen, eine mobile Ansicht und ein optionales Dark Theme.
 
+<p align="center">
+  <img width="256" height="256" alt="logo"
+       src="https://github.com/user-attachments/assets/c1bcbc27-c1e7-4ab6-90f2-154aab769ffb" />
+</p>
+
 Die Erweiterungen lassen sich einzeln einschalten. **Nach der Installation sind alle elf Funktionen deaktiviert.** Du kannst mit einer einzelnen Funktion beginnen und die Oberfläche Schritt für Schritt ausprobieren.
 
-Das Addon wurde ausschließlich mit agentischer KI (GPT-6.1 Sol Medium-Hoch, Gemini 4 Argon) erstellt. Das Addon hat über 300 automatisierte Regressionstestfälle erfolgreich durchlaufen.
+**Hinweis:** Das Addon wurde ausschließlich mit agentischer KI (GPT-6.1 Sol Medium-Hoch, Gemini 4 Argon) erstellt. Das Addon hat über 300 automatisierte Regressionstestfälle erfolgreich durchlaufen.
 Händisch wurde das Addon auf einer Test CCU sowie später auf meiner Live CCU erfolgreich getestet. Logs wurden erfolgreich auf Warnungen und Fehler überprüft - keine Auffälligkeiten.
 
 #### Dennoch: Die Nutzung dieses Addons erfolgt ausschließlich auf eigene Gefahr. Ich übernehme keinerlei Haftung für Schäden, Datenverlust oder Fehlfunktionen, die durch die Ausführung dieses Addons entstehen. Vor dem Aktivieren der Funktionen empfiehlt es sich stets ein Backup zu erstellen!
@@ -77,7 +82,7 @@ Die Texte werden in eigenen Metadaten des Addons gespeichert und nicht als zusä
 
 Die mobile Ansicht reduziert den Platzbedarf des Kopfbereichs und passt die Bedienung an kleinere Bildschirme an. Die gewohnte WebUI bleibt dabei erkennbar.
 
-<img width="263" height="468" alt="mobile1" src="https://github.com/user-attachments/assets/99d0b419-ae83-4199-8c03-96ec04023e91" />
+<img width="263" height="468" alt="mobile1" src="https://github.com/user-attachments/assets/99d0b419-ae83-4199-8c03-96ec04023e91" /> &nbsp;&nbsp;&nbsp;&nbsp;
 <img width="263" height="468" alt="mobile2" src="https://github.com/user-attachments/assets/b2b5299f-c926-452d-81c9-118e6d8d714e" />
 
 ## Favoritenlisten und Favoriten sortieren
@@ -136,9 +141,8 @@ Das dunkele Theme passt helle Flächen, Menüs, Bedienelemente und unterstützte
 
 Wird die Theme-Funktion deaktiviert oder das Addon deinstalliert, so verwendet das System wieder das helle Originaldesign. Die Theme-Auswahl ist rein optischer Natur und verändert keine Geräte-, Programm- oder Variablenwerte.
 
+<img width="212" height="185" alt="theme2" src="https://github.com/user-attachments/assets/0567dc32-8c06-446c-8665-caa83f6d4e0c" /> &nbsp;&nbsp;&nbsp;&nbsp;
 <img width="253" height="86" alt="theme1" src="https://github.com/user-attachments/assets/071ff27d-a196-4160-a8e5-e34a79934867" />
-<img width="212" height="185" alt="theme2" src="https://github.com/user-attachments/assets/0567dc32-8c06-446c-8665-caa83f6d4e0c" />
-
 
 *Alle Abbildungen wurden lokal mit dem Addon, Original-WebUI-Stilen und erfundenen Beispieldaten erstellt. Sie zeigen keine private Installation. Die Screenshots dienen der Funktionsdarstellung und sind kein Nachweis eines Live-Tests auf einer Zentrale.*
 
