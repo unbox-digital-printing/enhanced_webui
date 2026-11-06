@@ -2,7 +2,7 @@
 ## Enhanced WebUI Addon
 
 
-Enhanced WebUI ergänzt die vertraute OpenCCU-Weboberfläche um Funktionen, die das Bearbeiten und Dokumentieren von Programmen erleichtern: Programmlogik per Drag and Drop sortieren, Skripte mit Autovervollständigung bearbeiten und einzelne Programmteile mit Infotexten versehen. Dazu kommen verbesserte Listen, eine mobile Ansicht und ein optionales Dark Theme.
+Enhanced WebUI ergänzt die vertraute OpenCCU-Weboberfläche um Funktionen, die das Bearbeiten, Dokumentieren und Verwalten innerhalb der CCU erleichtern: Programmlogik per Drag and Drop sortieren, Skripte mit Autovervollständigung bearbeiten und einzelne Programmteile mit Infotexten versehen. Dazu kommen verbesserte Listen, eine mobile Ansicht und ein optionales Dark Theme.
 
 <p align="center">
   <img width="256" height="256" alt="logo"
@@ -11,8 +11,7 @@ Enhanced WebUI ergänzt die vertraute OpenCCU-Weboberfläche um Funktionen, die 
 
 Die Erweiterungen lassen sich einzeln einschalten. **Nach der Installation sind alle elf Funktionen deaktiviert.** Du kannst mit einer einzelnen Funktion beginnen und die Oberfläche Schritt für Schritt ausprobieren.
 
-**Hinweis:** Das Addon wurde ausschließlich mit agentischer KI (GPT-6.1 Sol Medium-Hoch, Gemini 4 Argon) erstellt. Das Addon hat über 300 automatisierte Regressionstestfälle erfolgreich durchlaufen.
-Händisch wurde das Addon auf einer Test CCU sowie später auf meiner Live CCU erfolgreich getestet. Logs wurden erfolgreich auf Warnungen und Fehler überprüft - keine Auffälligkeiten.
+**Hinweis:** Das Addon wurde ausschließlich mit agentischer KI (GPT-6.1 Sol Medium-Hoch, Gemini 4 Argon) erstellt. Das Addon hat über 300 automatisierte Regressionstestfälle erfolgreich durchlaufen. Händisch wurde das Addon ausführlich auf einer Test CCU (Proxmox VM) sowie später auf meiner Live CCU (OpenCCU mit Raspberry Pi3 und HM-MOD-RPI-PCB) erfolgreich getestet. Logs wurden stets auf Auffälligkeiten, wie Warnungen und Fehler überprüft und zeigten keine Auffälligkeiten.
 
 #### Dennoch: Die Nutzung dieses Addons erfolgt ausschließlich auf eigene Gefahr. Ich übernehme keinerlei Haftung für Schäden, Datenverlust oder Fehlfunktionen, die durch die Ausführung dieses Addons entstehen. Vor dem Aktivieren der Funktionen empfiehlt es sich stets ein Backup zu erstellen!
 
