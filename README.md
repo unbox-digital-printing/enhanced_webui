@@ -25,6 +25,7 @@ Die Erweiterungen lassen sich einzeln einschalten. **Nach der Installation sind 
 - **Programm-IDs anzeigen:** Die interne ID als zusätzliche Spalte in der Programmübersicht einblenden.
 - **Speicherzeit anzeigen:** Die vom Addon erfasste letzte Speicherung eines Programms anzeigen. Vor der Erfassung liegende Änderungen bleiben „unbekannt“.
 - **Filter und Listensortierung verbessern:** Bereits während der Eingabe suchen, mehrere Spalten einbeziehen, Suchspalten auswählen und den Suchbegriff mit einem Klick löschen. Ein Trichter kennzeichnet einen aktiven Filter. Programme lassen sich zusätzlich nach Aktivstatus filtern und nach Name, Beschreibung, ID oder erfasster Speicherzeit sortieren. Unterstützte weitere Listen umfassen unter anderem Geräte, Kanäle, Systemvariablen, Räume, Gewerke und die Favoritenübersicht.
+- **Programmgruppen:** Programme können gruppiert werden. Unter Einstellungen → Programmgruppen lassen sich Gruppen anlegen, bearbeiten und löschen.
 - **Programme mit Infotexten drucken:** Eine zusätzliche Druckansicht ergänzt die beiden ursprünglichen Druckfunktionen. Dafür ist eine angepasste, kompatible Fassung des Addons **hm-print** mit Unterstützung für die Infotexte erforderlich. Die Versionsnummer allein ersetzt diesen Kompatibilitätsnachweis nicht.
 - **Mobile Ansicht:** Kompakte Kopfleiste mit aufklappbarem Menü, drei Darstellungsgrößen und angepasste Skriptdialoge. Ein Vollbildschalter steht bei entsprechender Browserunterstützung zur Verfügung; breite Tabellen und die Fußleiste lassen sich seitlich verschieben.
 - **Theme-Auswahl:** Zwischen Original und Dark wechseln. Der blaue Kopfbereich bleibt erhalten, dunkle Flächen werden abgestuft dargestellt. Die Einstellungsseite des Addons behält ihr helles Design.
@@ -91,6 +92,18 @@ Favoritenlisten und die darin enthaltenen Favoriten lassen sich über die zusät
 Die Erweiterung verwendet die vorhandenen Favoritenobjekte. Vor einer Änderung wird die Ausgangsreihenfolge gelesen und beim Speichern mit der erwarteten Reihenfolge verglichen. Hat sich die Liste zwischenzeitlich verändert, soll die Sortierung nicht auf einem veralteten Stand weiterschreiben.
 
 **Die Reihenfolge wird sofort gespeichert.** Anders als bei der Programmbearbeitung gibt es hier kein zusätzliches „OK“, mit dem der Vorgang erst bestätigt würde. Ein späteres „Zurück“ macht eine bereits gespeicherte Favoritensortierung nicht rückgängig.
+
+## Programmgruppen
+
+Programme können in beiden Programmübersichten ("Status und Bedienung" und "Programme und Verknüpfungen") gruppieren. Gruppen lassen sich direkt in der Tabelle einzeln oder gemeinsam öffnen und schließen. Programme ohne Gruppe bleiben sichtbar.
+
+Unter **Einstellungen → Programmgruppen** lassen sich Gruppen anlegen, bearbeiten und löschen. Mehrere Programme können per Checkbox gleichzeitig zugeordnet werden. Die CCU speichert Gruppen und Zuordnungen zentral. Der Browser-Tab merkt sich, welche Gruppen geöffnet sind.
+
+Die Gruppenverwaltung zeigt bis zu fünf zugeordnete Programmnamen je Gruppe an. In den Programmübersichten zeigen die Gruppenköpfe die Programmanzahl. Die Programme darunter sind eingerückt.
+
+<img width="640" height="176" alt="image" src="https://github.com/user-attachments/assets/066ea8ee-94fb-44bf-9bcd-940f0044bafa" />
+<img width="213" height="460" alt="image" src="https://github.com/user-attachments/assets/000d91e8-11e3-4347-bead-76f4a6cb7ce9" />
+
 
 ## Benutzerkonto: Startseitenvariablen und Dialoggröße
 
