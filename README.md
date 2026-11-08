@@ -27,7 +27,7 @@ Die Erweiterungen lassen sich einzeln einschalten. **Nach der Installation sind 
 - **Filter und Listensortierung verbessern:** Bereits während der Eingabe suchen, mehrere Spalten einbeziehen, Suchspalten auswählen und den Suchbegriff mit einem Klick löschen. Ein Trichter kennzeichnet einen aktiven Filter. Programme lassen sich zusätzlich nach Aktivstatus filtern und nach Name, Beschreibung, ID oder erfasster Speicherzeit sortieren. Unterstützte weitere Listen umfassen unter anderem Geräte, Kanäle, Systemvariablen, Räume, Gewerke und die Favoritenübersicht.
 - **Programmgruppen:** Programme können gruppiert werden. Unter Einstellungen → Programmgruppen lassen sich Gruppen anlegen, bearbeiten und löschen.
 - **Systemvariablengruppen:** Analog zu den Programmen können auch Systemvariablen gruppiert werden. Unter Einstellungen → Systemvariablengruppen lassen sich Gruppen anlegen, bearbeiten und löschen.
-- **Programme mit Infotexten drucken:** Eine zusätzliche Druckansicht ergänzt die beiden ursprünglichen Druckfunktionen. Dafür ist eine angepasste, kompatible Fassung des Addons **hm-print** mit Unterstützung für die Infotexte erforderlich. Die Versionsnummer allein ersetzt diesen Kompatibilitätsnachweis nicht.
+- **Programme mit Infotexten drucken:** Eine zusätzliche Druckansicht ergänzt die beiden ursprünglichen Druckfunktionen. Dafür ist eine angepasste, kompatible Fassung des Addons **hm-print** mit Unterstützung für die Infotexte erforderlich.
 - **Mobile Ansicht:** Kompakte Kopfleiste mit aufklappbarem Menü, drei Darstellungsgrößen und angepasste Skriptdialoge. Ein Vollbildschalter steht bei entsprechender Browserunterstützung zur Verfügung; breite Tabellen und die Fußleiste lassen sich seitlich verschieben.
 - **Theme-Auswahl:** Zwischen Original und Dark wechseln. Der blaue Kopfbereich bleibt erhalten, dunkle Flächen werden abgestuft dargestellt. Die Einstellungsseite des Addons behält ihr helles Design.
 
@@ -150,6 +150,8 @@ Die Funktion steht in den Systemvariablen-, Favoriten-, Geräte-, Kanal-, Raum- 
 Voraussetzung für diese Funktion ist eine angepasste, kompatible Version des Addons **hm-print**. Das ursprüngliche [hm-print Addon](https://github.com/homematic-community/hm-print) unterstützt die neuen Infotexte nicht. Ist diese Version nicht installiert, so stehen lediglich die gewohnten Druckfunktionen **„Drucken“** und **„Drucken inkl. Interne“** zur Verfügung.
 
 Ist die kompatible Version installiert, so öffnet die zusätzliche Schaltfläche **„Drucken mit Infotexten“** im Programm-Dialog eine Druckansicht in einem neuen Browser-Tab. Sie ergänzt die Programme um die separat gespeicherten Infotexte (siehe oben).
+
+Eventuell erstellte Programmgruppen werden in der Druckvorschau nicht dargestellt.
 
 ## Theme-Auswahl: Standard (hell) und dunkel
 
